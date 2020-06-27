@@ -1,6 +1,5 @@
 import axios from 'axios'
-var API_URL = 'http://192.168.0.112:8081/'
-//var API_URL = "http://localhost:8081/";
+var API_URL = "http://localhost:8081/";
 
     async function getItens(tipo) {
         return await axios.get(API_URL + "albus/" + tipo)
