@@ -172,7 +172,7 @@
         position: relative;
         left: 13%;
         font-size: 20px;
-
+        margin: 50px 0;
     }
 
     a, #categoria-list {

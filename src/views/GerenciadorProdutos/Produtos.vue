@@ -162,7 +162,7 @@
 
             salvar() {
 
-                if(!this.produto.nome || !this.produto.categoria.id || !this.produto.quantidade
+                if (!this.produto.nome || !this.produto.categoria.id || !this.produto.quantidade
                     || !this.produto.custo || !this.produto.valorDeVenda) {
                     alert("Preencha todos os campos obrigatórios!")
                     return;
@@ -214,7 +214,7 @@
         position: relative;
         left: 13%;
         font-size: 20px;
-
+        margin: 50px 0;
     }
 
     a, #produto-list {

@@ -6,9 +6,15 @@
 
                 <nav class="top-nav">
                     <ul>
-                        <li><router-link to="/">Home</router-link></li>
-                        <li><router-link to="/Administrador/Produtos">Gerenciar Produtos</router-link></li>
-                        <li><router-link to="/Administrador/Categorias">Gerenciar Categorias</router-link></li>
+                        <li>
+                            <router-link to="/">Home</router-link>
+                        </li>
+                        <li>
+                            <router-link to="/Administrador/Produtos">Gerenciar Produtos</router-link>
+                        </li>
+                        <li>
+                            <router-link to="/Administrador/Categorias">Gerenciar Categorias</router-link>
+                        </li>
                     </ul>
                 </nav>
             </div>
